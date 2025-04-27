@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+  
+.container {
+  width:  600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000; 
+}
+
+h1 {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+  
+.form-section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.login-info, .personal-info {
+  border: 1px solid #0c0c0c;
+  padding: 0;
+}
+
+.login-header, .personal-header { 
+  background-color: #4d4b4b;
+  padding: 2px;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+  
+label {
+  width: 150px;
+  display: inline-block;
+  margin-right: 10px;
+}
+  
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 8px;
+  border: 2px solid #30b4f1;
+  width: 300px;
+  background-color: #99FFFF;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+.radio-nam, .radio-nu {
+  border: 2px solid #30b4f1;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  margin-left: 3px;
+  margin-bottom: 5px;
+  background-color: #99FFFF;
+}
+
+.radio-group label {
+  width: auto;
+  margin: 0 10px;
+}
+  
+.required {
+  color: red;
+}
+  
+.submit-btn {
+  background-color: #99FFFF;
+  color: #333;
+  padding: 10px 20px;
+  border: 2px solid #30b4f1;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto 0;
+}

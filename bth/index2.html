@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Đăng ký khách hàng</title>
+<link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Đăng ký khách hàng</h1>
+
+    <div class="form-section login-info">
+      <div class="login-header">
+        <h2>Thông tin đăng nhập</h2>
+      </div>
+        <div class="form-group">
+          <label for="username">Tên đăng nhập</label>
+          <input type="text" id="username" value="dlthien">
+        </div>
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" value="*****">
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Nhập lại mật khẩu</label>
+          <input type="password" id="confirm-password" value="****">
+          <span class="required">(*)</span>
+        </div>
+      </div>
+
+    <div class="form-section personal-info">
+      <div class="personal-header">
+        <h2>Thông tin chi tiết cá nhân</h2>
+      </div>
+        <div class="form-group">
+          <label for="fullname">Họ tên khách hàng</label>
+          <input type="text" id="fullname" value="Đỗ Lâm Thiên">
+        </div>
+        <div class="form-group">
+          <label for="dob">Ngày sinh</label>
+          <input type="text" id="dob" value="10/1979">
+          <span class="required">(*)</span>
+        </div>
+        <div class="form-group">
+          <label>Giới tính</label>
+          <div class="radio-group">
+            <div class="radio-nam">
+              <input type="radio" id="male" name="gender" value="male" checked>
+            </div>
+            <label for="male">Nam</label>
+            <div class="radio-nu">
+              <input type="radio" id="female" name="gender" value="female"> 
+            </div>  
+            <label for="female">Nữ</label>
+           </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Địa chỉ email</label>
+          <input type="email" id="email" value="dlthien@">
+          <span class="required">(*)</span>
+        </div>
+        <div class="form-group">
+          <label for="income">Thu nhập</label>
+          <input type="text" id="income" value="3000000">
+        </div>
+    </div>
+
+    <button class="submit-btn">Đăng ký</button>
+</div>
+
+</body>
+</html>

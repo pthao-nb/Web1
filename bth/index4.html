@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Điểm Sinh Viên</title>
+    <link rel="stylesheet" type="text/css" href="styles4.css">
+</head>
+<body>
+    <div class="filters">
+        <label for="program">Chương trình đào tạo:</label>
+        <select id="program">
+            <option value="sptinhoc">Sư phạm Tin học</option>
+            <option value="sptinhoc">Công nghệ thông tin</option>
+            <option value="sptinhoc">Trí tuệ nhân tạo</option>
+        </select>
+        <label for="year">Năm học:</label>
+        <select id="year">
+            <option value="all">Tất cả</option>
+            <option value="all">2016-2017</option>
+            <option value="all">2017-2018</option>
+        </select>
+        <label for="semester">Học kỳ:</label>
+        <select id="semester">
+            <option value="all">Tất cả</option>
+            <option value="all">HK01</option>
+            <option value="all">HK02</option>
+        </select>
+    </div>
+    <div class="notes">
+        <p>
+            <b><u><i>Ghi chú:</i></u></b>
+            <br>1. Những môn có dấu <b style="color: red;">(*)</b> sẽ không tính điểm trung bình mà chỉ là môn điều kiện.</br>
+        </p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th align="left">Mã học phần</th>
+                <th>Tên học phần</th>
+                <th>Tín chỉ</th>
+                <th>Điểm 10</th>
+                <th>Điểm 4</th>
+                <th>Điểm chữ</th>
+                <th>Kết quả</th>
+                <th>Chi tiết</th>
+            </tr>
+        </thead>
+            <tr>
+                <td class="year-header" colspan="9">Năm học : 2015-2016 - Học kỳ : HK01</td>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">1511010038</td>
+                <td>Đại số tuyến tính</td>
+                <td align="center">3.0</td>
+                <td align="center">9.3</td>
+                <td align="center">4.00</td>
+                <td align="center">A+</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">2</td>
+                <td align="center">1511010050</td>
+                <td>Giải tích 1</td>
+                <td align="center">3.0</td>
+                <td align="center">6.9</td>
+                <td align="center">2.50</td>
+                <td align="center">B</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">3</td>
+                <td align="center">1511050065</td>
+                <td>Thực hành máy tính (lắp ráp, cài đặt, bảo trì)</td>
+                <td align="center">2.0</td>
+                <td align="center">7.5</td>
+                <td align="center">3.00</td>
+                <td align="center">B+</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">1511050108</td>
+                <td>Đại cương về Tin học</td>
+                <td align="center">3.0</td>
+                <td align="center">8.3</td>
+                <td align="center">3.50</td>
+                <td align="center">A</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">5</td>
+                <td align="center">1511090061</td>
+                <td>Tiếng Anh 1</td>
+                <td align="center">3.0</td>
+                <td align="center">7.5</td>
+                <td align="center">3.00</td>
+                <td align="center">B+</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">6</td>
+                <td align="center">1511120001</td>
+                <td>Giáo dục thể chất 1 <span class="red-star">*</span></td>
+                <td align="center">1.0</td>
+                <td align="center">8.9</td>
+                <td align="center">3.50</td>
+                <td align="center">A</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">7</td>
+                <td align="center">1511130045</td>
+                <td>Những NLCB của chủ nghĩa Mác - Lênin 1</td>
+                <td align="center">2.0</td>
+                <td align="center">6.5</td>
+                <td align="center">2.50</td>
+                <td align="center">B</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td class="summary" colspan="3" >
+                    <p>- Tổng số tín chỉ: 17.0</p>
+                    <p>- Số tín chỉ đạt: 17.0 Số tín chỉ không đạt: 0</p>
+                    <p>- Điểm trung bình học kỳ (Hệ 10): 7.75</p>
+                    <p>- Điểm trung bình học kỳ (Hệ 4): 3.13 - Điểm rèn luyện: 95 - Xếp loại (RL): Xuất sắc</p>
+                </td>
+                <td class="summary" colspan="6">
+                    <p>- Số tín chỉ tích lũy: 16</p>
+                    <p>- Điểm trung bình tích lũy (Hệ 10): 7.75</p>
+                    <p>- Điểm trung bình tích lũy (Hệ 4): 3.13</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="year-header" colspan="9">Năm học : 2015-2016 - Học kỳ : HK02</td>
+            </tr>
+            <tr>
+                <td align="center">8</td>
+                <td align="center">1521010126</td>
+                <td>Xác suất thống kê</td>
+                <td align="center">3.0</td>
+                <td align="center">5.6</td>
+                <td align="center">2.00</td>
+                <td align="center">C</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">9</td>
+                <td align="center">1521050035</td>
+                <td>Ngôn ngữ lập trình bậc cao</td>
+                <td align="center">3.0</td>
+                <td align="center">5.9</td>
+                <td align="center">2.00</td>
+                <td align="center">C</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">10</td>
+                <td align="center">1521050074</td>
+                <td>Toán logic</td>
+                <td align="center">2.0</td>
+                <td align="center">6.0</td>
+                <td align="center">2.50</td>
+                <td align="center">B</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+            <tr>
+                <td align="center">11</td>
+                <td align="center">1521050082</td>
+                <td>Hệ quản trị cơ sở dữ liệu (Access)</td>
+                <td align="center">3.0</td>
+                <td align="center">10.0</td>
+                <td align="center">4.00</td>
+                <td align="center">A+</td>
+                <td align="center"><img src="D:\WEB\image\Dau.png" alt=""></td>
+                <td align="center"><a href=""><img src="D:\WEB\image\detail.png" alt=""></a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

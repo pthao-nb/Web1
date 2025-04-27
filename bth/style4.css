@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+    width: 60%;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.year-header {
+    color: rgb(0, 0, 255);
+    background-color: rgb(199, 214, 243);
+    font-weight: bold;
+    padding: 3px 3px;
+}
+.summary {
+    text-align: left ;
+    font-weight: bold;
+    background-color: rgb(247, 238, 223);
+    padding: 5px;
+    line-height: 5px;
+}
+
+img{
+    width: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+}
